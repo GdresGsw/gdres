@@ -1,0 +1,121 @@
+此处记录视频学习的知识点:
+====在linux中创建线程函数===========
+#include <pthread.h>
+pthread_t pthread_self();   返回当前线程的线程ID
+int pthread_create(pthread_t *thread, NULL, callback， arg)  线程创建函数
+callback函数：void* callback(void* arg);
+
+void pthread_exit(void* retval);    线程立即退出，不影响其他线程的运行
+int pthread_join(pthread_t thread, void** retval);  主线程等待子线程thread退出后再退出
+注：retval 是子线程退出时传出的数据，不可以是在线程内部创建的临时变量的地址，主线程通过join函数接收子线程传递出的数据
+
+pthread_detach(pthread_t)    将子线程和主线程进行分离
+
+pthread_cancel(pthread_t)   杀死线程
+
+
+互斥锁：
+pthread_mutex_t mutex    互斥锁
+pthread_mutex_init(&mutex, NULL)  初始化
+pthread_mutex_lock(&mutex)  加锁
+pthread_mutex_unlock(&mutex) 解锁
+pthread_mutex_trylock(&mutex) 尝试是否可加锁
+pthread_mutex_destroy(&mutex)  释放锁资源
+
+死锁：重复加锁，忘记解锁，不同的线程锁定了不同的资源
+避免死锁：避免多次锁定，使用trylock，访问其他资源时先释放当前资源，顺序访问资源，
+
+
+读写锁：互斥锁的升级版,可实现锁定读或者锁定写的操作
+状态信息：锁的状态，锁的是什么操作，哪个线程对锁进行了锁操作
+读锁是共享的可并行操作，写锁是独占的只能单线程处理，有读有写时写锁优先级比读锁高
+pthread_rwlock_t rwlock;
+pthread_rwlock_init(&mutex, NULL)  初始化
+pthread_rwlock_destroy(&mutex)  释放锁资源
+
+pthread_rwlock_rdlock(&rwlock)    
+pthread_rwlock_tryrdlock(&rwlock)
+pthread_rwlock_wrlock(&rwlock)
+pthread_rwlock_trywrlock(&rwlock) 锁失败不会阻塞线程会返回错误号
+
+条件变量：
+pthread_cond_t cond;
+pthread_cond_init(&cond, NULL);
+pthread_cond_destroy(&cond);
+
+pthread_cond_wait(&cond, &mutex)  第二个参数时互斥锁
+pthread_cond_timedwait(&cond, &mutex, &tmsp)   超时条件
+tmsp的结构：
+time_t mytim = time(NULL)   从1970.1.1 到当前的总秒数
+struct timespec tmsp;
+tmsp.tv_nsec = 0;
+tmsp.tv_sec = time(NULL) + 100     阻塞线程100s
+
+pthread_cond_signal(&cond)  唤醒至少一个阻塞在条件变量cond的线程
+pthread_cond_broadcast(&cond)  唤醒全部条件变量阻塞的线程
+
+信号量：
+头文件 <semaphore.h>
+sem_t sem;    信号量变量
+sem_init(&sem, NULL, 4)    第二个参数为0表示线程同步，非0为进程同步，第三个为资源数
+sem_destroy(&sem)   释放资源
+sem_wait(&sem)      当资源数为0时，阻塞，不为0时不阻塞（资源数理解为空闲车位），不阻塞将资源数减一
+sem_trywait(&sem)
+sem_post(&sem)    将资源数加1
+sem_getvalue(&sem， int*）  查看资源数，第二个为传出参数
+
+
+====c++ thread 跨平台===========
+#include <thread> <atomic> <mutex> <condition_variable> <future>
+
+--------std::thread类成员函数:
+join()
+detach()
+get_id()  返回一个类型为std::thread::id的对象
+joinable()：检查线程是否可被join。检查thread对象是否标识一个活动(active)的可行性线程。
+    缺省构造的thread对象、已经完成join的thread对象、已经detach的thread对象都不是joinable
+hardware_concurrency：静态成员函数，返回当前计算机最大的硬件并发线程数目
+
+在线程处理函数内：C++11里面专门定义了一个命名空间this_thread
+get_id()         获取当前调用者线程的ID
+yield()          将调用者线程跳出运行状态，阻塞一个极小的时间片
+sleep_until()    将线程休眠至某个指定的时刻
+sleep_for()      将线程休眠某个指定的时间片
+参数类型：std::chrono::seconds(5)   std::chrono::milliseconds(5)
+
+-----------互斥锁-------------
+std::mutex mutex;
+mutex.lock()
+mutex.unlock()
+std::lock_guard<std::mutex> lockGuard(mutex) // 自动锁
+std::unique_lock<std::mutex> lck(mutex);
+
+
+std::atomic<int> arg;  // 原子锁
+
+------------条件变量-----------------
+std::condition_variable cv   条件变量类
+
+std::unique_lock<std::mutex> lck(mutex);
+cv.wait(lck);
+cv.notify_all(); // 唤醒所有线程.
+cv.notify_one();
+
+wait（unique_lock <mutex>＆lck，Predicate pred） // wait的重载
+当前线程仅在pred=false时阻塞；如果pred=true时，不阻塞。
+
+cv.wait_for(lck,std::chrono::seconds(1)) == std::cv_status::timeout
+当超时或者被唤醒时才能解除阻塞状态
+
+while (shipment_available())
+    std::this_thread::yield();  // 当条件为true时线程会一直阻塞
+
+std::condition_variable 只能接受 std::unique_lock<std::mutex> 类型的参数
+std::condition_variable_any 的 wait 函数可以接受任何 lockable 参数
+
+
+
+
+
+
+
