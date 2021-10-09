@@ -230,7 +230,7 @@ void TcpServer::AddSendTask(ClientCell* client, void* msg)
 
 /*==============================================
  * Function name: TcpServer::Monitor
- * description: 结束服务器
+ * description: 监控线程（测试用）
  *==============================================*/
 void TcpServer::Monitor()
 {

@@ -1,0 +1,59 @@
+2021-10-09 21:33:54	        main[1]	0	[EVENT]	     thread_pool.cpp[62]:threadPool(pool) init OK!
+2021-10-09 21:33:54	  pool_wkr_1[2]	0	[EVENT]	     modul_timer.cpp[43]:modultimermgr thread run!
+2021-10-09 21:33:54	      test_1[5]	0	[EVENT]	      modul_base.cpp[56]:modul(1) running!
+2021-10-09 21:33:54	        main[1]	0	[EVENT]	       modul_mgr.cpp[63]:modul(1) register OK!
+2021-10-09 21:33:54	      test_2[6]	0	[EVENT]	      modul_base.cpp[56]:modul(2) running!
+2021-10-09 21:33:54	        main[1]	0	[EVENT]	       modul_mgr.cpp[63]:modul(2) register OK!
+2021-10-09 21:33:54	      test_3[7]	0	[EVENT]	      modul_base.cpp[56]:modul(3) running!
+2021-10-09 21:33:54	        main[1]	0	[EVENT]	       modul_mgr.cpp[63]:modul(3) register OK!
+2021-10-09 21:33:56	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 0
+2021-10-09 21:33:56	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 0
+2021-10-09 21:33:56	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:33:57	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:33:57	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 0
+2021-10-09 21:33:57	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:33:58	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:33:58	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 1
+2021-10-09 21:33:58	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:33:59	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:33:59	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 1
+2021-10-09 21:33:59	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:00	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:00	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 1
+2021-10-09 21:34:00	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:01	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:01	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 2
+2021-10-09 21:34:01	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:02	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:02	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 1
+2021-10-09 21:34:02	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:03	  pool_wkr_2[3]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:03	  pool_wkr_3[4]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 2
+2021-10-09 21:34:03	  pool_wkr_2[3]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:04	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:04	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 0
+2021-10-09 21:34:04	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:05	  pool_wkr_2[3]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:05	  pool_wkr_3[4]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 2
+2021-10-09 21:34:05	  pool_wkr_2[3]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:06	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 1
+2021-10-09 21:34:06	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:06	  pool_wkr_2[3]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:07	  pool_wkr_2[3]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:07	  pool_wkr_3[4]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 2
+2021-10-09 21:34:07	  pool_wkr_2[3]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:09	  pool_wkr_2[3]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:09	  pool_wkr_3[4]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 1
+2021-10-09 21:34:09	  pool_wkr_2[3]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:10	  pool_wkr_2[3]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:10	  pool_wkr_3[4]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 2
+2021-10-09 21:34:10	  pool_wkr_2[3]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:11	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:11	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 1
+2021-10-09 21:34:11	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:12	  pool_wkr_2[3]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:12	  pool_wkr_3[4]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 2
+2021-10-09 21:34:12	  pool_wkr_2[3]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1
+2021-10-09 21:34:13	  pool_wkr_3[4]	0	[EVENT]	     modul_test1.cpp[83]:test modul 1 recv msg cnt : 1
+2021-10-09 21:34:13	  pool_wkr_2[3]	0	[EVENT]	     modul_test2.cpp[91]:test modul 2 recv msg cnt : 1
+2021-10-09 21:34:13	  pool_wkr_3[4]	0	[EVENT]	     modul_test3.cpp[90]:test modul 3 recv msg cnt : 1

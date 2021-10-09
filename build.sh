@@ -4,53 +4,41 @@ BIN=bin
 LIB=lib
 BUILD=build
 
-if [ ! -d $BIN ];then
-    mkdir $BIN
-else
-    rm -rf $BIN/*
-fi
+#注意：如果系统匹配失败可根据失败后的输出内容调整以下字符串内容再重新执行
+mac="Darwin"
+linux="Linux"
+windows="MINGW64"
 
-if [ ! -d $LIB ];then
-    mkdir $LIB
-else
-    rm -rf $LIB/*
-fi
+#清空文件夹
+clearDir(){
+    if [ ! -d $1 ];then
+        mkdir $1
+    else
+        rm -rf $1/*
+    fi 
+}
 
-if [ ! -d $BUILD ];then
-    mkdir $BUILD
-else
-    rm -rf $BUILD/*
-fi
+clearDir $BIN;
+clearDir $LIB;
+clearDir $BUILD;
 
 cd $BUILD
 
-ret_str=`uname  -a`
-ret=`expr match "$ret_str" "MING"`
-if [ ! $ret -eq 0 ];then
+ret=`uname  -a`
 
-    # if [ ! -d $BIN ];then
-    #     mkdir $BIN
-    # else
-    #     rm -rf $BIN/*
-    # fi
-
-    # if [ ! -d $LIB ];then
-    #     mkdir $LIB
-    # else
-    #     rm -rf $LIB/*
-    # fi
-
+if [[ $ret =~ $windows ]];then
     cmake -G "MinGW Makefiles" ..
     mingw32-make.exe
-
-else
+elif [[ $ret =~ $linux ]];then
     cmake ..
     make
+else
+    echo $ret
+    exit 1
 fi
 
 
-# cd ../$BIN
-# ./threadTest
-
-
+#直接执行可执行文件
+cd ../$BIN
+./mytest
 
