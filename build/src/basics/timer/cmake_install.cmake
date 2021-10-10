@@ -1,4 +1,4 @@
-# Install script for directory: I:/share/gdres/src/basics/timer
+# Install script for directory: I:/share/gdres1/gdres/src/basics/timer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

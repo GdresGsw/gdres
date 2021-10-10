@@ -646,7 +646,7 @@ LoggerSingle::LoggerSingle()
     logger = new Logger();
     stdoutAppender = new StdoutLogAppender();
     fileAppender = new FileoutLogAppender(LOG_FILE_PATH);
-    // logger->AddAppender(stdoutAppender);
+    logger->AddAppender(stdoutAppender);
     logger->AddAppender(fileAppender);
 }
 

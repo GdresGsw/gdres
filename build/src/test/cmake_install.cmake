@@ -1,4 +1,4 @@
-# Install script for directory: I:/share/gdres/src/test
+# Install script for directory: I:/share/gdres1/gdres/src/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("I:/share/gdres/build/src/test/mytest/cmake_install.cmake")
+  include("I:/share/gdres1/gdres/build/src/test/mytest/cmake_install.cmake")
 
 endif()
 

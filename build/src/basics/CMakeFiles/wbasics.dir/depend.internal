@@ -6,8 +6,8 @@ src/basics/CMakeFiles/wbasics.dir/fiber/fiber.cpp.obj
  ../src/basics/parts/file.h
  ../src/basics/parts/func_pub.h
  ../src/basics/parts/lock.h
- I:/share/gdres/src/basics/fiber/fiber.cpp
- I:/share/gdres/src/basics/fiber/fiber.h
+ I:/share/gdres1/gdres/src/basics/fiber/fiber.cpp
+ I:/share/gdres1/gdres/src/basics/fiber/fiber.h
 src/basics/CMakeFiles/wbasics.dir/fiber/scheduler.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
@@ -15,15 +15,15 @@ src/basics/CMakeFiles/wbasics.dir/fiber/scheduler.cpp.obj
  ../src/basics/parts/lock.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/basics/fiber/fiber.h
- I:/share/gdres/src/basics/fiber/scheduler.cpp
- I:/share/gdres/src/basics/fiber/scheduler.h
+ I:/share/gdres1/gdres/src/basics/fiber/fiber.h
+ I:/share/gdres1/gdres/src/basics/fiber/scheduler.cpp
+ I:/share/gdres1/gdres/src/basics/fiber/scheduler.h
 src/basics/CMakeFiles/wbasics.dir/log/log.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
  ../src/basics/parts/func_pub.h
  ../src/basics/parts/lock.h
- I:/share/gdres/src/basics/log/log.cpp
+ I:/share/gdres1/gdres/src/basics/log/log.cpp
 src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_base.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
@@ -32,12 +32,12 @@ src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_base.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/basics/modulmgr/modul_base.cpp
- I:/share/gdres/src/basics/modulmgr/modul_base.h
- I:/share/gdres/src/basics/modulmgr/modul_mgr.h
- I:/share/gdres/src/basics/modulmgr/modul_timer.h
- I:/share/gdres/src/basics/modulmgr/msgdata.h
- I:/share/gdres/src/basics/modulmgr/msgqueue.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_base.cpp
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_base.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_mgr.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_timer.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgdata.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgqueue.h
 src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_mgr.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
@@ -46,11 +46,11 @@ src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_mgr.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/basics/modulmgr/modul_mgr.cpp
- I:/share/gdres/src/basics/modulmgr/modul_mgr.h
- I:/share/gdres/src/basics/modulmgr/modul_timer.h
- I:/share/gdres/src/basics/modulmgr/msgdata.h
- I:/share/gdres/src/basics/modulmgr/msgqueue.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_mgr.cpp
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_mgr.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_timer.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgdata.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgqueue.h
 src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test1.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
@@ -59,13 +59,13 @@ src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test1.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/basics/modulmgr/modul_base.h
- I:/share/gdres/src/basics/modulmgr/modul_mgr.h
- I:/share/gdres/src/basics/modulmgr/modul_test.h
- I:/share/gdres/src/basics/modulmgr/modul_test1.cpp
- I:/share/gdres/src/basics/modulmgr/modul_timer.h
- I:/share/gdres/src/basics/modulmgr/msgdata.h
- I:/share/gdres/src/basics/modulmgr/msgqueue.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_base.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_mgr.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_test.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_test1.cpp
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_timer.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgdata.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgqueue.h
 src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test2.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
@@ -74,13 +74,13 @@ src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test2.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/basics/modulmgr/modul_base.h
- I:/share/gdres/src/basics/modulmgr/modul_mgr.h
- I:/share/gdres/src/basics/modulmgr/modul_test.h
- I:/share/gdres/src/basics/modulmgr/modul_test2.cpp
- I:/share/gdres/src/basics/modulmgr/modul_timer.h
- I:/share/gdres/src/basics/modulmgr/msgdata.h
- I:/share/gdres/src/basics/modulmgr/msgqueue.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_base.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_mgr.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_test.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_test2.cpp
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_timer.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgdata.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgqueue.h
 src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test3.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
@@ -89,13 +89,13 @@ src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test3.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/basics/modulmgr/modul_base.h
- I:/share/gdres/src/basics/modulmgr/modul_mgr.h
- I:/share/gdres/src/basics/modulmgr/modul_test.h
- I:/share/gdres/src/basics/modulmgr/modul_test3.cpp
- I:/share/gdres/src/basics/modulmgr/modul_timer.h
- I:/share/gdres/src/basics/modulmgr/msgdata.h
- I:/share/gdres/src/basics/modulmgr/msgqueue.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_base.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_mgr.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_test.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_test3.cpp
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_timer.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgdata.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgqueue.h
 src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_timer.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
@@ -104,48 +104,48 @@ src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_timer.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/basics/modulmgr/modul_timer.cpp
- I:/share/gdres/src/basics/modulmgr/modul_timer.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_timer.cpp
+ I:/share/gdres1/gdres/src/basics/modulmgr/modul_timer.h
 src/basics/CMakeFiles/wbasics.dir/modulmgr/msgqueue.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
  ../src/basics/parts/func_pub.h
  ../src/basics/parts/lock.h
- I:/share/gdres/src/basics/modulmgr/msgdata.h
- I:/share/gdres/src/basics/modulmgr/msgqueue.cpp
- I:/share/gdres/src/basics/modulmgr/msgqueue.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgdata.h
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgqueue.cpp
+ I:/share/gdres1/gdres/src/basics/modulmgr/msgqueue.h
 src/basics/CMakeFiles/wbasics.dir/parts/file.cpp.obj
  ../src/basics/parts/file.h
- I:/share/gdres/src/basics/parts/file.cpp
+ I:/share/gdres1/gdres/src/basics/parts/file.cpp
 src/basics/CMakeFiles/wbasics.dir/parts/func_pub.cpp.obj
  ../src/basics/fiber/fiber.h
  ../src/basics/parts/lock.h
  ../src/basics/thread/wthread.h
- I:/share/gdres/src/basics/parts/func_pub.cpp
- I:/share/gdres/src/basics/parts/func_pub.h
+ I:/share/gdres1/gdres/src/basics/parts/func_pub.cpp
+ I:/share/gdres1/gdres/src/basics/parts/func_pub.h
 src/basics/CMakeFiles/wbasics.dir/parts/lock.cpp.obj
- I:/share/gdres/src/basics/parts/lock.cpp
- I:/share/gdres/src/basics/parts/lock.h
+ I:/share/gdres1/gdres/src/basics/parts/lock.cpp
+ I:/share/gdres1/gdres/src/basics/parts/lock.h
 src/basics/CMakeFiles/wbasics.dir/thread/thread_pool.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
  ../src/basics/parts/func_pub.h
  ../src/basics/parts/lock.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/basics/thread/thread_pool.cpp
- I:/share/gdres/src/basics/thread/thread_pool.h
- I:/share/gdres/src/basics/thread/wthread.h
+ I:/share/gdres1/gdres/src/basics/thread/thread_pool.cpp
+ I:/share/gdres1/gdres/src/basics/thread/thread_pool.h
+ I:/share/gdres1/gdres/src/basics/thread/wthread.h
 src/basics/CMakeFiles/wbasics.dir/thread/wthread.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
  ../src/basics/parts/func_pub.h
  ../src/basics/parts/lock.h
- I:/share/gdres/src/basics/thread/wthread.cpp
- I:/share/gdres/src/basics/thread/wthread.h
+ I:/share/gdres1/gdres/src/basics/thread/wthread.cpp
+ I:/share/gdres1/gdres/src/basics/thread/wthread.h
 src/basics/CMakeFiles/wbasics.dir/timer/timer.cpp.obj
  ../src/basics/log/log.h
  ../src/basics/parts/file.h
  ../src/basics/parts/func_pub.h
  ../src/basics/parts/lock.h
- I:/share/gdres/src/basics/timer/timer.cpp
- I:/share/gdres/src/basics/timer/timer.h
+ I:/share/gdres1/gdres/src/basics/timer/timer.cpp
+ I:/share/gdres1/gdres/src/basics/timer/timer.h

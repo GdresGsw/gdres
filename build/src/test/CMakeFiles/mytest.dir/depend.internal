@@ -18,7 +18,7 @@ src/test/CMakeFiles/mytest.dir/mytest.cpp.obj
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
  ../src/test/mytest/test.h
- I:/share/gdres/src/test/mytest.cpp
+ I:/share/gdres1/gdres/src/test/mytest.cpp
 src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj
  ../src/basics/fiber/fiber.h
  ../src/basics/fiber/scheduler.h
@@ -35,8 +35,8 @@ src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/test/mytest/fiber_test.cpp
- I:/share/gdres/src/test/mytest/test.h
+ I:/share/gdres1/gdres/src/test/mytest/fiber_test.cpp
+ I:/share/gdres1/gdres/src/test/mytest/test.h
 src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj
  ../src/basics/fiber/fiber.h
  ../src/basics/fiber/scheduler.h
@@ -53,8 +53,8 @@ src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/test/mytest/log_test.cpp
- I:/share/gdres/src/test/mytest/test.h
+ I:/share/gdres1/gdres/src/test/mytest/log_test.cpp
+ I:/share/gdres1/gdres/src/test/mytest/test.h
 src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj
  ../src/basics/fiber/fiber.h
  ../src/basics/fiber/scheduler.h
@@ -71,8 +71,8 @@ src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/test/mytest/modulmgr_test.cpp
- I:/share/gdres/src/test/mytest/test.h
+ I:/share/gdres1/gdres/src/test/mytest/modulmgr_test.cpp
+ I:/share/gdres1/gdres/src/test/mytest/test.h
 src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj
  ../src/basics/fiber/fiber.h
  ../src/basics/fiber/scheduler.h
@@ -89,5 +89,5 @@ src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj
  ../src/basics/thread/thread_pool.h
  ../src/basics/thread/wthread.h
  ../src/basics/timer/timer.h
- I:/share/gdres/src/test/mytest/test.h
- I:/share/gdres/src/test/mytest/threadpool_test.cpp
+ I:/share/gdres1/gdres/src/test/mytest/test.h
+ I:/share/gdres1/gdres/src/test/mytest/threadpool_test.cpp

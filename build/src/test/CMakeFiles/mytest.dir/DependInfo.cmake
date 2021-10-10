@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "I:/share/gdres/src/test/mytest.cpp" "I:/share/gdres/build/src/test/CMakeFiles/mytest.dir/mytest.cpp.obj"
-  "I:/share/gdres/src/test/mytest/fiber_test.cpp" "I:/share/gdres/build/src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj"
-  "I:/share/gdres/src/test/mytest/log_test.cpp" "I:/share/gdres/build/src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj"
-  "I:/share/gdres/src/test/mytest/modulmgr_test.cpp" "I:/share/gdres/build/src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj"
-  "I:/share/gdres/src/test/mytest/threadpool_test.cpp" "I:/share/gdres/build/src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj"
+  "I:/share/gdres1/gdres/src/test/mytest.cpp" "I:/share/gdres1/gdres/build/src/test/CMakeFiles/mytest.dir/mytest.cpp.obj"
+  "I:/share/gdres1/gdres/src/test/mytest/fiber_test.cpp" "I:/share/gdres1/gdres/build/src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj"
+  "I:/share/gdres1/gdres/src/test/mytest/log_test.cpp" "I:/share/gdres1/gdres/build/src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj"
+  "I:/share/gdres1/gdres/src/test/mytest/modulmgr_test.cpp" "I:/share/gdres1/gdres/build/src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj"
+  "I:/share/gdres1/gdres/src/test/mytest/threadpool_test.cpp" "I:/share/gdres1/gdres/build/src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "I:/share/gdres/build/src/basics/CMakeFiles/wbasics.dir/DependInfo.cmake"
+  "I:/share/gdres1/gdres/build/src/basics/CMakeFiles/wbasics.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

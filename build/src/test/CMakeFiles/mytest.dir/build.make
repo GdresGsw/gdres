@@ -59,10 +59,10 @@ RM = "C:\Program Files\cmake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = I:\share\gdres
+CMAKE_SOURCE_DIR = I:\share\gdres1\gdres
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = I:\share\gdres\build
+CMAKE_BINARY_DIR = I:\share\gdres1\gdres\build
 
 # Include any dependencies generated for this target.
 include src/test/CMakeFiles/mytest.dir/depend.make
@@ -76,72 +76,72 @@ include src/test/CMakeFiles/mytest.dir/flags.make
 src/test/CMakeFiles/mytest.dir/mytest.cpp.obj: src/test/CMakeFiles/mytest.dir/flags.make
 src/test/CMakeFiles/mytest.dir/mytest.cpp.obj: src/test/CMakeFiles/mytest.dir/includes_CXX.rsp
 src/test/CMakeFiles/mytest.dir/mytest.cpp.obj: ../src/test/mytest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest.cpp.obj"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest.cpp.obj -c I:\share\gdres\src\test\mytest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres1\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest.cpp.obj"
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest.cpp.obj -c I:\share\gdres1\gdres\src\test\mytest.cpp
 
 src/test/CMakeFiles/mytest.dir/mytest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytest.dir/mytest.cpp.i"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres\src\test\mytest.cpp > CMakeFiles\mytest.dir\mytest.cpp.i
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres1\gdres\src\test\mytest.cpp > CMakeFiles\mytest.dir\mytest.cpp.i
 
 src/test/CMakeFiles/mytest.dir/mytest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytest.dir/mytest.cpp.s"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres\src\test\mytest.cpp -o CMakeFiles\mytest.dir\mytest.cpp.s
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres1\gdres\src\test\mytest.cpp -o CMakeFiles\mytest.dir\mytest.cpp.s
 
 src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj: src/test/CMakeFiles/mytest.dir/flags.make
 src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj: src/test/CMakeFiles/mytest.dir/includes_CXX.rsp
 src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj: ../src/test/mytest/log_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest\log_test.cpp.obj -c I:\share\gdres\src\test\mytest\log_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres1\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj"
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest\log_test.cpp.obj -c I:\share\gdres1\gdres\src\test\mytest\log_test.cpp
 
 src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytest.dir/mytest/log_test.cpp.i"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres\src\test\mytest\log_test.cpp > CMakeFiles\mytest.dir\mytest\log_test.cpp.i
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres1\gdres\src\test\mytest\log_test.cpp > CMakeFiles\mytest.dir\mytest\log_test.cpp.i
 
 src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytest.dir/mytest/log_test.cpp.s"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres\src\test\mytest\log_test.cpp -o CMakeFiles\mytest.dir\mytest\log_test.cpp.s
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres1\gdres\src\test\mytest\log_test.cpp -o CMakeFiles\mytest.dir\mytest\log_test.cpp.s
 
 src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj: src/test/CMakeFiles/mytest.dir/flags.make
 src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj: src/test/CMakeFiles/mytest.dir/includes_CXX.rsp
 src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj: ../src/test/mytest/threadpool_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest\threadpool_test.cpp.obj -c I:\share\gdres\src\test\mytest\threadpool_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres1\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj"
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest\threadpool_test.cpp.obj -c I:\share\gdres1\gdres\src\test\mytest\threadpool_test.cpp
 
 src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.i"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres\src\test\mytest\threadpool_test.cpp > CMakeFiles\mytest.dir\mytest\threadpool_test.cpp.i
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres1\gdres\src\test\mytest\threadpool_test.cpp > CMakeFiles\mytest.dir\mytest\threadpool_test.cpp.i
 
 src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.s"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres\src\test\mytest\threadpool_test.cpp -o CMakeFiles\mytest.dir\mytest\threadpool_test.cpp.s
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres1\gdres\src\test\mytest\threadpool_test.cpp -o CMakeFiles\mytest.dir\mytest\threadpool_test.cpp.s
 
 src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj: src/test/CMakeFiles/mytest.dir/flags.make
 src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj: src/test/CMakeFiles/mytest.dir/includes_CXX.rsp
 src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj: ../src/test/mytest/fiber_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest\fiber_test.cpp.obj -c I:\share\gdres\src\test\mytest\fiber_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres1\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj"
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest\fiber_test.cpp.obj -c I:\share\gdres1\gdres\src\test\mytest\fiber_test.cpp
 
 src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytest.dir/mytest/fiber_test.cpp.i"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres\src\test\mytest\fiber_test.cpp > CMakeFiles\mytest.dir\mytest\fiber_test.cpp.i
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres1\gdres\src\test\mytest\fiber_test.cpp > CMakeFiles\mytest.dir\mytest\fiber_test.cpp.i
 
 src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytest.dir/mytest/fiber_test.cpp.s"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres\src\test\mytest\fiber_test.cpp -o CMakeFiles\mytest.dir\mytest\fiber_test.cpp.s
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres1\gdres\src\test\mytest\fiber_test.cpp -o CMakeFiles\mytest.dir\mytest\fiber_test.cpp.s
 
 src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj: src/test/CMakeFiles/mytest.dir/flags.make
 src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj: src/test/CMakeFiles/mytest.dir/includes_CXX.rsp
 src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj: ../src/test/mytest/modulmgr_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest\modulmgr_test.cpp.obj -c I:\share\gdres\src\test\mytest\modulmgr_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\share\gdres1\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj"
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mytest.dir\mytest\modulmgr_test.cpp.obj -c I:\share\gdres1\gdres\src\test\mytest\modulmgr_test.cpp
 
 src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.i"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres\src\test\mytest\modulmgr_test.cpp > CMakeFiles\mytest.dir\mytest\modulmgr_test.cpp.i
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\share\gdres1\gdres\src\test\mytest\modulmgr_test.cpp > CMakeFiles\mytest.dir\mytest\modulmgr_test.cpp.i
 
 src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.s"
-	cd /d I:\share\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres\src\test\mytest\modulmgr_test.cpp -o CMakeFiles\mytest.dir\mytest\modulmgr_test.cpp.s
+	cd /d I:\share\gdres1\gdres\build\src\test && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\share\gdres1\gdres\src\test\mytest\modulmgr_test.cpp -o CMakeFiles\mytest.dir\mytest\modulmgr_test.cpp.s
 
 # Object files for target mytest
 mytest_OBJECTS = \
@@ -164,8 +164,8 @@ mytest_EXTERNAL_OBJECTS =
 ../bin/mytest.exe: src/test/CMakeFiles/mytest.dir/linklibs.rsp
 ../bin/mytest.exe: src/test/CMakeFiles/mytest.dir/objects1.rsp
 ../bin/mytest.exe: src/test/CMakeFiles/mytest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=I:\share\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ..\..\..\bin\mytest.exe"
-	cd /d I:\share\gdres\build\src\test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mytest.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=I:\share\gdres1\gdres\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ..\..\..\bin\mytest.exe"
+	cd /d I:\share\gdres1\gdres\build\src\test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mytest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/test/CMakeFiles/mytest.dir/build: ../bin/mytest.exe
@@ -173,10 +173,10 @@ src/test/CMakeFiles/mytest.dir/build: ../bin/mytest.exe
 .PHONY : src/test/CMakeFiles/mytest.dir/build
 
 src/test/CMakeFiles/mytest.dir/clean:
-	cd /d I:\share\gdres\build\src\test && $(CMAKE_COMMAND) -P CMakeFiles\mytest.dir\cmake_clean.cmake
+	cd /d I:\share\gdres1\gdres\build\src\test && $(CMAKE_COMMAND) -P CMakeFiles\mytest.dir\cmake_clean.cmake
 .PHONY : src/test/CMakeFiles/mytest.dir/clean
 
 src/test/CMakeFiles/mytest.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" I:\share\gdres I:\share\gdres\src\test I:\share\gdres\build I:\share\gdres\build\src\test I:\share\gdres\build\src\test\CMakeFiles\mytest.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" I:\share\gdres1\gdres I:\share\gdres1\gdres\src\test I:\share\gdres1\gdres\build I:\share\gdres1\gdres\build\src\test I:\share\gdres1\gdres\build\src\test\CMakeFiles\mytest.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : src/test/CMakeFiles/mytest.dir/depend
 

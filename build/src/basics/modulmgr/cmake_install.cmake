@@ -1,4 +1,4 @@
-# Install script for directory: I:/share/gdres/src/basics/modulmgr
+# Install script for directory: I:/share/gdres1/gdres/src/basics/modulmgr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

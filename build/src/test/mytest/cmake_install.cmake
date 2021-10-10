@@ -1,4 +1,4 @@
-# Install script for directory: I:/share/gdres/src/test/mytest
+# Install script for directory: I:/share/gdres1/gdres/src/test/mytest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

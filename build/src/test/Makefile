@@ -64,10 +64,10 @@ RM = "C:\Program Files\cmake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = I:\share\gdres
+CMAKE_SOURCE_DIR = I:\share\gdres1\gdres
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = I:\share\gdres\build
+CMAKE_BINARY_DIR = I:\share\gdres1\gdres\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -96,14 +96,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d I:\share\gdres\build && $(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres\build\CMakeFiles I:\share\gdres\build\src\test\CMakeFiles\progress.marks
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres\build\CMakeFiles 0
+	cd /d I:\share\gdres1\gdres\build && $(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres1\gdres\build\CMakeFiles I:\share\gdres1\gdres\build\src\test\CMakeFiles\progress.marks
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres1\gdres\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/clean
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/preinstall
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/preinstall
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d I:\share\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d I:\share\gdres1\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/test/CMakeFiles/mytest.dir/rule:
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/CMakeFiles/mytest.dir/rule
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/CMakeFiles/mytest.dir/rule
 .PHONY : src/test/CMakeFiles/mytest.dir/rule
 
 # Convenience name for target.
@@ -138,7 +138,7 @@ mytest: src/test/CMakeFiles/mytest.dir/rule
 
 # fast build rule for target.
 mytest/fast:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/build
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/build
 .PHONY : mytest/fast
 
 mytest.obj: mytest.cpp.obj
@@ -147,7 +147,7 @@ mytest.obj: mytest.cpp.obj
 
 # target to build an object file
 mytest.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest.cpp.obj
 .PHONY : mytest.cpp.obj
 
 mytest.i: mytest.cpp.i
@@ -156,7 +156,7 @@ mytest.i: mytest.cpp.i
 
 # target to preprocess a source file
 mytest.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest.cpp.i
 .PHONY : mytest.cpp.i
 
 mytest.s: mytest.cpp.s
@@ -165,7 +165,7 @@ mytest.s: mytest.cpp.s
 
 # target to generate assembly for a file
 mytest.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest.cpp.s
 .PHONY : mytest.cpp.s
 
 mytest/fiber_test.obj: mytest/fiber_test.cpp.obj
@@ -174,7 +174,7 @@ mytest/fiber_test.obj: mytest/fiber_test.cpp.obj
 
 # target to build an object file
 mytest/fiber_test.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.obj
 .PHONY : mytest/fiber_test.cpp.obj
 
 mytest/fiber_test.i: mytest/fiber_test.cpp.i
@@ -183,7 +183,7 @@ mytest/fiber_test.i: mytest/fiber_test.cpp.i
 
 # target to preprocess a source file
 mytest/fiber_test.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.i
 .PHONY : mytest/fiber_test.cpp.i
 
 mytest/fiber_test.s: mytest/fiber_test.cpp.s
@@ -192,7 +192,7 @@ mytest/fiber_test.s: mytest/fiber_test.cpp.s
 
 # target to generate assembly for a file
 mytest/fiber_test.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/fiber_test.cpp.s
 .PHONY : mytest/fiber_test.cpp.s
 
 mytest/log_test.obj: mytest/log_test.cpp.obj
@@ -201,7 +201,7 @@ mytest/log_test.obj: mytest/log_test.cpp.obj
 
 # target to build an object file
 mytest/log_test.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.obj
 .PHONY : mytest/log_test.cpp.obj
 
 mytest/log_test.i: mytest/log_test.cpp.i
@@ -210,7 +210,7 @@ mytest/log_test.i: mytest/log_test.cpp.i
 
 # target to preprocess a source file
 mytest/log_test.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.i
 .PHONY : mytest/log_test.cpp.i
 
 mytest/log_test.s: mytest/log_test.cpp.s
@@ -219,7 +219,7 @@ mytest/log_test.s: mytest/log_test.cpp.s
 
 # target to generate assembly for a file
 mytest/log_test.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/log_test.cpp.s
 .PHONY : mytest/log_test.cpp.s
 
 mytest/modulmgr_test.obj: mytest/modulmgr_test.cpp.obj
@@ -228,7 +228,7 @@ mytest/modulmgr_test.obj: mytest/modulmgr_test.cpp.obj
 
 # target to build an object file
 mytest/modulmgr_test.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.obj
 .PHONY : mytest/modulmgr_test.cpp.obj
 
 mytest/modulmgr_test.i: mytest/modulmgr_test.cpp.i
@@ -237,7 +237,7 @@ mytest/modulmgr_test.i: mytest/modulmgr_test.cpp.i
 
 # target to preprocess a source file
 mytest/modulmgr_test.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.i
 .PHONY : mytest/modulmgr_test.cpp.i
 
 mytest/modulmgr_test.s: mytest/modulmgr_test.cpp.s
@@ -246,7 +246,7 @@ mytest/modulmgr_test.s: mytest/modulmgr_test.cpp.s
 
 # target to generate assembly for a file
 mytest/modulmgr_test.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/modulmgr_test.cpp.s
 .PHONY : mytest/modulmgr_test.cpp.s
 
 mytest/threadpool_test.obj: mytest/threadpool_test.cpp.obj
@@ -255,7 +255,7 @@ mytest/threadpool_test.obj: mytest/threadpool_test.cpp.obj
 
 # target to build an object file
 mytest/threadpool_test.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.obj
 .PHONY : mytest/threadpool_test.cpp.obj
 
 mytest/threadpool_test.i: mytest/threadpool_test.cpp.i
@@ -264,7 +264,7 @@ mytest/threadpool_test.i: mytest/threadpool_test.cpp.i
 
 # target to preprocess a source file
 mytest/threadpool_test.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.i
 .PHONY : mytest/threadpool_test.cpp.i
 
 mytest/threadpool_test.s: mytest/threadpool_test.cpp.s
@@ -273,7 +273,7 @@ mytest/threadpool_test.s: mytest/threadpool_test.cpp.s
 
 # target to generate assembly for a file
 mytest/threadpool_test.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\test\CMakeFiles\mytest.dir\build.make src/test/CMakeFiles/mytest.dir/mytest/threadpool_test.cpp.s
 .PHONY : mytest/threadpool_test.cpp.s
 
 # Help Target
@@ -311,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d I:\share\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d I:\share\gdres1\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

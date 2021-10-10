@@ -64,10 +64,10 @@ RM = "C:\Program Files\cmake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = I:\share\gdres
+CMAKE_SOURCE_DIR = I:\share\gdres1\gdres
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = I:\share\gdres\build
+CMAKE_BINARY_DIR = I:\share\gdres1\gdres\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -96,14 +96,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d I:\share\gdres\build && $(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres\build\CMakeFiles I:\share\gdres\build\src\test\mytest\CMakeFiles\progress.marks
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/mytest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres\build\CMakeFiles 0
+	cd /d I:\share\gdres1\gdres\build && $(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres1\gdres\build\CMakeFiles I:\share\gdres1\gdres\build\src\test\mytest\CMakeFiles\progress.marks
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/mytest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres1\gdres\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/mytest/clean
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/mytest/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,17 +113,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/mytest/preinstall
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/mytest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/mytest/preinstall
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/test/mytest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d I:\share\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d I:\share\gdres1\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -145,6 +145,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d I:\share\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d I:\share\gdres1\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

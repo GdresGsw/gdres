@@ -130,7 +130,7 @@ g(gsw)-d(design)-re(restructure)-s(stable)
 
 ##### （2）线程池的实现类图：		
 
-<img src="C:\Users\86187\AppData\Roaming\Typora\typora-user-images\image-20211010105145323.png" alt="image-20211010105145323" style="zoom:50%;" />
+<img src="https://z3.ax1x.com/2021/10/10/5EMKUO.md.png" alt="image-20211010105145323" style="zoom:50%;" />
 
 ​	
 
@@ -152,7 +152,7 @@ g(gsw)-d(design)-re(restructure)-s(stable)
 
 ​		ModulTimerMgr类：继承TimerMgr类，根据模块管理的需求，自带线程池，支持一个时间管理线程和N个定时任务执行的工作线程
 
-![image-20211010175152607](C:\Users\86187\AppData\Roaming\Typora\typora-user-images\image-20211010175152607.png)
+![image-20211010175152607](https://z3.ax1x.com/2021/10/10/5EMM5D.md.png)
 
 
 
@@ -181,7 +181,7 @@ g(gsw)-d(design)-re(restructure)-s(stable)
 
 ​		ModulTest类：继承ModulBase类，并实现基类的虚方法；
 
-![image-20211010174858136](C:\Users\86187\AppData\Roaming\Typora\typora-user-images\image-20211010174858136.png)
+<img src="https://z3.ax1x.com/2021/10/10/5EMlPe.md.png" alt="image-20211010174858136" style="zoom:150%;" />
 
 
 
@@ -198,7 +198,7 @@ g(gsw)-d(design)-re(restructure)-s(stable)
 
 ##### （2）模块管理类的实现方案：
 
-![image-20211010174528533](C:\Users\86187\AppData\Roaming\Typora\typora-user-images\image-20211010174528533.png)
+![image-20211010174528533](https://z3.ax1x.com/2021/10/10/5EMmb6.md.png)
 
 
 
@@ -206,7 +206,7 @@ g(gsw)-d(design)-re(restructure)-s(stable)
 
 #### 1.6 基于消息的模块管理系统的总体实现
 
-![image-20211010174231409](C:\Users\86187\AppData\Roaming\Typora\typora-user-images\image-20211010174231409.png)
+<img src="https://z3.ax1x.com/2021/10/10/5EMuVK.md.png" alt="image-20211010174231409" style="zoom:150%;" />
 
 
 

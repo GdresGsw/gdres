@@ -64,10 +64,10 @@ RM = "C:\Program Files\cmake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = I:\share\gdres
+CMAKE_SOURCE_DIR = I:\share\gdres1\gdres
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = I:\share\gdres\build
+CMAKE_BINARY_DIR = I:\share\gdres1\gdres\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -96,14 +96,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d I:\share\gdres\build && $(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres\build\CMakeFiles I:\share\gdres\build\src\basics\CMakeFiles\progress.marks
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/all
-	$(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres\build\CMakeFiles 0
+	cd /d I:\share\gdres1\gdres\build && $(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres1\gdres\build\CMakeFiles I:\share\gdres1\gdres\build\src\basics\CMakeFiles\progress.marks
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\share\gdres1\gdres\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/clean
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/preinstall
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/preinstall
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d I:\share\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d I:\share\gdres1\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/basics/CMakeFiles/wbasics.dir/rule:
-	cd /d I:\share\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/CMakeFiles/wbasics.dir/rule
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f CMakeFiles\Makefile2 src/basics/CMakeFiles/wbasics.dir/rule
 .PHONY : src/basics/CMakeFiles/wbasics.dir/rule
 
 # Convenience name for target.
@@ -138,7 +138,7 @@ wbasics: src/basics/CMakeFiles/wbasics.dir/rule
 
 # fast build rule for target.
 wbasics/fast:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/build
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/build
 .PHONY : wbasics/fast
 
 fiber/fiber.obj: fiber/fiber.cpp.obj
@@ -147,7 +147,7 @@ fiber/fiber.obj: fiber/fiber.cpp.obj
 
 # target to build an object file
 fiber/fiber.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/fiber.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/fiber.cpp.obj
 .PHONY : fiber/fiber.cpp.obj
 
 fiber/fiber.i: fiber/fiber.cpp.i
@@ -156,7 +156,7 @@ fiber/fiber.i: fiber/fiber.cpp.i
 
 # target to preprocess a source file
 fiber/fiber.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/fiber.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/fiber.cpp.i
 .PHONY : fiber/fiber.cpp.i
 
 fiber/fiber.s: fiber/fiber.cpp.s
@@ -165,7 +165,7 @@ fiber/fiber.s: fiber/fiber.cpp.s
 
 # target to generate assembly for a file
 fiber/fiber.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/fiber.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/fiber.cpp.s
 .PHONY : fiber/fiber.cpp.s
 
 fiber/scheduler.obj: fiber/scheduler.cpp.obj
@@ -174,7 +174,7 @@ fiber/scheduler.obj: fiber/scheduler.cpp.obj
 
 # target to build an object file
 fiber/scheduler.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/scheduler.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/scheduler.cpp.obj
 .PHONY : fiber/scheduler.cpp.obj
 
 fiber/scheduler.i: fiber/scheduler.cpp.i
@@ -183,7 +183,7 @@ fiber/scheduler.i: fiber/scheduler.cpp.i
 
 # target to preprocess a source file
 fiber/scheduler.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/scheduler.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/scheduler.cpp.i
 .PHONY : fiber/scheduler.cpp.i
 
 fiber/scheduler.s: fiber/scheduler.cpp.s
@@ -192,7 +192,7 @@ fiber/scheduler.s: fiber/scheduler.cpp.s
 
 # target to generate assembly for a file
 fiber/scheduler.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/scheduler.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/fiber/scheduler.cpp.s
 .PHONY : fiber/scheduler.cpp.s
 
 log/log.obj: log/log.cpp.obj
@@ -201,7 +201,7 @@ log/log.obj: log/log.cpp.obj
 
 # target to build an object file
 log/log.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/log/log.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/log/log.cpp.obj
 .PHONY : log/log.cpp.obj
 
 log/log.i: log/log.cpp.i
@@ -210,7 +210,7 @@ log/log.i: log/log.cpp.i
 
 # target to preprocess a source file
 log/log.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/log/log.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/log/log.cpp.i
 .PHONY : log/log.cpp.i
 
 log/log.s: log/log.cpp.s
@@ -219,7 +219,7 @@ log/log.s: log/log.cpp.s
 
 # target to generate assembly for a file
 log/log.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/log/log.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/log/log.cpp.s
 .PHONY : log/log.cpp.s
 
 modulmgr/modul_base.obj: modulmgr/modul_base.cpp.obj
@@ -228,7 +228,7 @@ modulmgr/modul_base.obj: modulmgr/modul_base.cpp.obj
 
 # target to build an object file
 modulmgr/modul_base.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_base.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_base.cpp.obj
 .PHONY : modulmgr/modul_base.cpp.obj
 
 modulmgr/modul_base.i: modulmgr/modul_base.cpp.i
@@ -237,7 +237,7 @@ modulmgr/modul_base.i: modulmgr/modul_base.cpp.i
 
 # target to preprocess a source file
 modulmgr/modul_base.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_base.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_base.cpp.i
 .PHONY : modulmgr/modul_base.cpp.i
 
 modulmgr/modul_base.s: modulmgr/modul_base.cpp.s
@@ -246,7 +246,7 @@ modulmgr/modul_base.s: modulmgr/modul_base.cpp.s
 
 # target to generate assembly for a file
 modulmgr/modul_base.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_base.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_base.cpp.s
 .PHONY : modulmgr/modul_base.cpp.s
 
 modulmgr/modul_mgr.obj: modulmgr/modul_mgr.cpp.obj
@@ -255,7 +255,7 @@ modulmgr/modul_mgr.obj: modulmgr/modul_mgr.cpp.obj
 
 # target to build an object file
 modulmgr/modul_mgr.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_mgr.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_mgr.cpp.obj
 .PHONY : modulmgr/modul_mgr.cpp.obj
 
 modulmgr/modul_mgr.i: modulmgr/modul_mgr.cpp.i
@@ -264,7 +264,7 @@ modulmgr/modul_mgr.i: modulmgr/modul_mgr.cpp.i
 
 # target to preprocess a source file
 modulmgr/modul_mgr.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_mgr.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_mgr.cpp.i
 .PHONY : modulmgr/modul_mgr.cpp.i
 
 modulmgr/modul_mgr.s: modulmgr/modul_mgr.cpp.s
@@ -273,7 +273,7 @@ modulmgr/modul_mgr.s: modulmgr/modul_mgr.cpp.s
 
 # target to generate assembly for a file
 modulmgr/modul_mgr.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_mgr.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_mgr.cpp.s
 .PHONY : modulmgr/modul_mgr.cpp.s
 
 modulmgr/modul_test1.obj: modulmgr/modul_test1.cpp.obj
@@ -282,7 +282,7 @@ modulmgr/modul_test1.obj: modulmgr/modul_test1.cpp.obj
 
 # target to build an object file
 modulmgr/modul_test1.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test1.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test1.cpp.obj
 .PHONY : modulmgr/modul_test1.cpp.obj
 
 modulmgr/modul_test1.i: modulmgr/modul_test1.cpp.i
@@ -291,7 +291,7 @@ modulmgr/modul_test1.i: modulmgr/modul_test1.cpp.i
 
 # target to preprocess a source file
 modulmgr/modul_test1.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test1.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test1.cpp.i
 .PHONY : modulmgr/modul_test1.cpp.i
 
 modulmgr/modul_test1.s: modulmgr/modul_test1.cpp.s
@@ -300,7 +300,7 @@ modulmgr/modul_test1.s: modulmgr/modul_test1.cpp.s
 
 # target to generate assembly for a file
 modulmgr/modul_test1.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test1.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test1.cpp.s
 .PHONY : modulmgr/modul_test1.cpp.s
 
 modulmgr/modul_test2.obj: modulmgr/modul_test2.cpp.obj
@@ -309,7 +309,7 @@ modulmgr/modul_test2.obj: modulmgr/modul_test2.cpp.obj
 
 # target to build an object file
 modulmgr/modul_test2.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test2.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test2.cpp.obj
 .PHONY : modulmgr/modul_test2.cpp.obj
 
 modulmgr/modul_test2.i: modulmgr/modul_test2.cpp.i
@@ -318,7 +318,7 @@ modulmgr/modul_test2.i: modulmgr/modul_test2.cpp.i
 
 # target to preprocess a source file
 modulmgr/modul_test2.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test2.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test2.cpp.i
 .PHONY : modulmgr/modul_test2.cpp.i
 
 modulmgr/modul_test2.s: modulmgr/modul_test2.cpp.s
@@ -327,7 +327,7 @@ modulmgr/modul_test2.s: modulmgr/modul_test2.cpp.s
 
 # target to generate assembly for a file
 modulmgr/modul_test2.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test2.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test2.cpp.s
 .PHONY : modulmgr/modul_test2.cpp.s
 
 modulmgr/modul_test3.obj: modulmgr/modul_test3.cpp.obj
@@ -336,7 +336,7 @@ modulmgr/modul_test3.obj: modulmgr/modul_test3.cpp.obj
 
 # target to build an object file
 modulmgr/modul_test3.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test3.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test3.cpp.obj
 .PHONY : modulmgr/modul_test3.cpp.obj
 
 modulmgr/modul_test3.i: modulmgr/modul_test3.cpp.i
@@ -345,7 +345,7 @@ modulmgr/modul_test3.i: modulmgr/modul_test3.cpp.i
 
 # target to preprocess a source file
 modulmgr/modul_test3.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test3.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test3.cpp.i
 .PHONY : modulmgr/modul_test3.cpp.i
 
 modulmgr/modul_test3.s: modulmgr/modul_test3.cpp.s
@@ -354,7 +354,7 @@ modulmgr/modul_test3.s: modulmgr/modul_test3.cpp.s
 
 # target to generate assembly for a file
 modulmgr/modul_test3.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test3.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_test3.cpp.s
 .PHONY : modulmgr/modul_test3.cpp.s
 
 modulmgr/modul_timer.obj: modulmgr/modul_timer.cpp.obj
@@ -363,7 +363,7 @@ modulmgr/modul_timer.obj: modulmgr/modul_timer.cpp.obj
 
 # target to build an object file
 modulmgr/modul_timer.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_timer.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_timer.cpp.obj
 .PHONY : modulmgr/modul_timer.cpp.obj
 
 modulmgr/modul_timer.i: modulmgr/modul_timer.cpp.i
@@ -372,7 +372,7 @@ modulmgr/modul_timer.i: modulmgr/modul_timer.cpp.i
 
 # target to preprocess a source file
 modulmgr/modul_timer.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_timer.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_timer.cpp.i
 .PHONY : modulmgr/modul_timer.cpp.i
 
 modulmgr/modul_timer.s: modulmgr/modul_timer.cpp.s
@@ -381,7 +381,7 @@ modulmgr/modul_timer.s: modulmgr/modul_timer.cpp.s
 
 # target to generate assembly for a file
 modulmgr/modul_timer.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_timer.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/modul_timer.cpp.s
 .PHONY : modulmgr/modul_timer.cpp.s
 
 modulmgr/msgqueue.obj: modulmgr/msgqueue.cpp.obj
@@ -390,7 +390,7 @@ modulmgr/msgqueue.obj: modulmgr/msgqueue.cpp.obj
 
 # target to build an object file
 modulmgr/msgqueue.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/msgqueue.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/msgqueue.cpp.obj
 .PHONY : modulmgr/msgqueue.cpp.obj
 
 modulmgr/msgqueue.i: modulmgr/msgqueue.cpp.i
@@ -399,7 +399,7 @@ modulmgr/msgqueue.i: modulmgr/msgqueue.cpp.i
 
 # target to preprocess a source file
 modulmgr/msgqueue.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/msgqueue.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/msgqueue.cpp.i
 .PHONY : modulmgr/msgqueue.cpp.i
 
 modulmgr/msgqueue.s: modulmgr/msgqueue.cpp.s
@@ -408,7 +408,7 @@ modulmgr/msgqueue.s: modulmgr/msgqueue.cpp.s
 
 # target to generate assembly for a file
 modulmgr/msgqueue.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/msgqueue.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/modulmgr/msgqueue.cpp.s
 .PHONY : modulmgr/msgqueue.cpp.s
 
 parts/file.obj: parts/file.cpp.obj
@@ -417,7 +417,7 @@ parts/file.obj: parts/file.cpp.obj
 
 # target to build an object file
 parts/file.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/file.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/file.cpp.obj
 .PHONY : parts/file.cpp.obj
 
 parts/file.i: parts/file.cpp.i
@@ -426,7 +426,7 @@ parts/file.i: parts/file.cpp.i
 
 # target to preprocess a source file
 parts/file.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/file.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/file.cpp.i
 .PHONY : parts/file.cpp.i
 
 parts/file.s: parts/file.cpp.s
@@ -435,7 +435,7 @@ parts/file.s: parts/file.cpp.s
 
 # target to generate assembly for a file
 parts/file.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/file.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/file.cpp.s
 .PHONY : parts/file.cpp.s
 
 parts/func_pub.obj: parts/func_pub.cpp.obj
@@ -444,7 +444,7 @@ parts/func_pub.obj: parts/func_pub.cpp.obj
 
 # target to build an object file
 parts/func_pub.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/func_pub.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/func_pub.cpp.obj
 .PHONY : parts/func_pub.cpp.obj
 
 parts/func_pub.i: parts/func_pub.cpp.i
@@ -453,7 +453,7 @@ parts/func_pub.i: parts/func_pub.cpp.i
 
 # target to preprocess a source file
 parts/func_pub.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/func_pub.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/func_pub.cpp.i
 .PHONY : parts/func_pub.cpp.i
 
 parts/func_pub.s: parts/func_pub.cpp.s
@@ -462,7 +462,7 @@ parts/func_pub.s: parts/func_pub.cpp.s
 
 # target to generate assembly for a file
 parts/func_pub.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/func_pub.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/func_pub.cpp.s
 .PHONY : parts/func_pub.cpp.s
 
 parts/lock.obj: parts/lock.cpp.obj
@@ -471,7 +471,7 @@ parts/lock.obj: parts/lock.cpp.obj
 
 # target to build an object file
 parts/lock.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/lock.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/lock.cpp.obj
 .PHONY : parts/lock.cpp.obj
 
 parts/lock.i: parts/lock.cpp.i
@@ -480,7 +480,7 @@ parts/lock.i: parts/lock.cpp.i
 
 # target to preprocess a source file
 parts/lock.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/lock.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/lock.cpp.i
 .PHONY : parts/lock.cpp.i
 
 parts/lock.s: parts/lock.cpp.s
@@ -489,7 +489,7 @@ parts/lock.s: parts/lock.cpp.s
 
 # target to generate assembly for a file
 parts/lock.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/lock.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/parts/lock.cpp.s
 .PHONY : parts/lock.cpp.s
 
 thread/thread_pool.obj: thread/thread_pool.cpp.obj
@@ -498,7 +498,7 @@ thread/thread_pool.obj: thread/thread_pool.cpp.obj
 
 # target to build an object file
 thread/thread_pool.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/thread_pool.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/thread_pool.cpp.obj
 .PHONY : thread/thread_pool.cpp.obj
 
 thread/thread_pool.i: thread/thread_pool.cpp.i
@@ -507,7 +507,7 @@ thread/thread_pool.i: thread/thread_pool.cpp.i
 
 # target to preprocess a source file
 thread/thread_pool.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/thread_pool.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/thread_pool.cpp.i
 .PHONY : thread/thread_pool.cpp.i
 
 thread/thread_pool.s: thread/thread_pool.cpp.s
@@ -516,7 +516,7 @@ thread/thread_pool.s: thread/thread_pool.cpp.s
 
 # target to generate assembly for a file
 thread/thread_pool.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/thread_pool.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/thread_pool.cpp.s
 .PHONY : thread/thread_pool.cpp.s
 
 thread/wthread.obj: thread/wthread.cpp.obj
@@ -525,7 +525,7 @@ thread/wthread.obj: thread/wthread.cpp.obj
 
 # target to build an object file
 thread/wthread.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/wthread.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/wthread.cpp.obj
 .PHONY : thread/wthread.cpp.obj
 
 thread/wthread.i: thread/wthread.cpp.i
@@ -534,7 +534,7 @@ thread/wthread.i: thread/wthread.cpp.i
 
 # target to preprocess a source file
 thread/wthread.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/wthread.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/wthread.cpp.i
 .PHONY : thread/wthread.cpp.i
 
 thread/wthread.s: thread/wthread.cpp.s
@@ -543,7 +543,7 @@ thread/wthread.s: thread/wthread.cpp.s
 
 # target to generate assembly for a file
 thread/wthread.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/wthread.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/thread/wthread.cpp.s
 .PHONY : thread/wthread.cpp.s
 
 timer/timer.obj: timer/timer.cpp.obj
@@ -552,7 +552,7 @@ timer/timer.obj: timer/timer.cpp.obj
 
 # target to build an object file
 timer/timer.cpp.obj:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/timer/timer.cpp.obj
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/timer/timer.cpp.obj
 .PHONY : timer/timer.cpp.obj
 
 timer/timer.i: timer/timer.cpp.i
@@ -561,7 +561,7 @@ timer/timer.i: timer/timer.cpp.i
 
 # target to preprocess a source file
 timer/timer.cpp.i:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/timer/timer.cpp.i
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/timer/timer.cpp.i
 .PHONY : timer/timer.cpp.i
 
 timer/timer.s: timer/timer.cpp.s
@@ -570,7 +570,7 @@ timer/timer.s: timer/timer.cpp.s
 
 # target to generate assembly for a file
 timer/timer.cpp.s:
-	cd /d I:\share\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/timer/timer.cpp.s
+	cd /d I:\share\gdres1\gdres\build && $(MAKE) -f src\basics\CMakeFiles\wbasics.dir\build.make src/basics/CMakeFiles/wbasics.dir/timer/timer.cpp.s
 .PHONY : timer/timer.cpp.s
 
 # Help Target
@@ -641,6 +641,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d I:\share\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d I:\share\gdres1\gdres\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "I:/share/gdres/bin/mytest.exe"
+			"path" : "I:/share/gdres1/gdres/bin/mytest.exe"
 		},
 		{
-			"path" : "I:/share/gdres/bin/mytest.pdb"
+			"path" : "I:/share/gdres1/gdres/bin/mytest.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -80,31 +80,31 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "I:/share/gdres/src/test/mytest"
+					"path" : "I:/share/gdres1/gdres/src/test/mytest"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "I:/share/gdres/src/basics/parts"
+					"path" : "I:/share/gdres1/gdres/src/basics/parts"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "I:/share/gdres/src/basics/log"
+					"path" : "I:/share/gdres1/gdres/src/basics/log"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "I:/share/gdres/src/basics/fiber"
+					"path" : "I:/share/gdres1/gdres/src/basics/fiber"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "I:/share/gdres/src/basics/thread"
+					"path" : "I:/share/gdres1/gdres/src/basics/thread"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "I:/share/gdres/src/basics/timer"
+					"path" : "I:/share/gdres1/gdres/src/basics/timer"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "I:/share/gdres/src/basics/modulmgr"
+					"path" : "I:/share/gdres1/gdres/src/basics/modulmgr"
 				}
 			],
 			"language" : "CXX",

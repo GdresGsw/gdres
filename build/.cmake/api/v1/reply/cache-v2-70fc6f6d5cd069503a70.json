@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "i:/share/gdres/build"
+			"value" : "i:/share/gdres1/gdres/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,11 +155,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw64/bin/x86_64-w64-mingw32-g++.exe"
+			"value" : "C:/Program Files/mingw64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "I:/share/gdres"
+			"value" : "I:/share/gdres1/gdres"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1367,7 +1367,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "I:/share/gdres/build"
+			"value" : "I:/share/gdres1/gdres/build"
 		},
 		{
 			"name" : "MY_TEST_SOURCE_DIR",
@@ -1379,7 +1379,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "I:/share/gdres"
+			"value" : "I:/share/gdres1/gdres"
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",

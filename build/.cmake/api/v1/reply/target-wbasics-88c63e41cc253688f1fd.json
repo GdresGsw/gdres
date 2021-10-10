@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "I:/share/gdres/lib/libwbasics.a"
+			"path" : "I:/share/gdres1/gdres/lib/libwbasics.a"
 		}
 	],
 	"backtrace" : 1,
@@ -144,27 +144,27 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "I:/share/gdres/src/basics/parts"
+					"path" : "I:/share/gdres1/gdres/src/basics/parts"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "I:/share/gdres/src/basics/log"
+					"path" : "I:/share/gdres1/gdres/src/basics/log"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "I:/share/gdres/src/basics/fiber"
+					"path" : "I:/share/gdres1/gdres/src/basics/fiber"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "I:/share/gdres/src/basics/thread"
+					"path" : "I:/share/gdres1/gdres/src/basics/thread"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "I:/share/gdres/src/basics/timer"
+					"path" : "I:/share/gdres1/gdres/src/basics/timer"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "I:/share/gdres/src/basics/modulmgr"
+					"path" : "I:/share/gdres1/gdres/src/basics/modulmgr"
 				}
 			],
 			"language" : "CXX",

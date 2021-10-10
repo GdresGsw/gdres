@@ -175,14 +175,14 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "mytest::@b7fcbc08bf8df37e9c1b",
-					"jsonFile" : "target-mytest-15ca3d19b0fd23310bdf.json",
+					"jsonFile" : "target-mytest-abaf6fbba873cfef2a8d.json",
 					"name" : "mytest",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "wbasics::@b346f9ef4bdff949d793",
-					"jsonFile" : "target-wbasics-f468e1bf9fce70e2f116.json",
+					"jsonFile" : "target-wbasics-88c63e41cc253688f1fd.json",
 					"name" : "wbasics",
 					"projectIndex" : 0
 				}
@@ -192,8 +192,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "I:/share/gdres/build",
-		"source" : "I:/share/gdres"
+		"build" : "I:/share/gdres1/gdres/build",
+		"source" : "I:/share/gdres1/gdres"
 	},
 	"version" : 
 	{
