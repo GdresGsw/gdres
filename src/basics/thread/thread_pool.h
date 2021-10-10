@@ -41,8 +41,6 @@ private:
     void Manager();                // 管理线程
     void Destroy();                // 销毁线程池
 
-    void ThreadExit();             // 线程退出
-
 private:
     std::queue<std::function<void()>> m_tasks;      // 任务队列
     std::string m_name;                             // 线程池名字
@@ -57,8 +55,7 @@ private:
     static const int NUMBER = 2;                   // 每次添加或删除两个线程
 
     std::mutex m_mutexPool;                        // 锁整个线程池
-    std::condition_variable m_isEmpty;             // 条件变量
-    Semaphore m_sem;                                 // 信号量
+    Semaphore m_sem;                               // 信号量
 
     bool m_shutdown;                               // 销毁线程池
 };

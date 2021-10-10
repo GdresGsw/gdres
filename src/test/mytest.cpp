@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
     Thread::GetThis();
+    // LogTest();
     ModulMgrTest();
     return 0;
 }
